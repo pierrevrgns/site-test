@@ -1,0 +1,46 @@
+body {
+    background-color: #040517;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*main*/
+/*button menu*/
+body main ul {
+    list-style-type: none;
+}
+body main ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+body main ul li a:hover{
+    text-decoration: underline;
+    color: rgb(155, 146, 146);
+}
+/*article*/
+body main span {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+body main span h1 {
+    margin-top: 1.75rem;
+}
+
+body main span img {
+    width: 10rem;
+    /*margin*/
+    margin-left: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+body main span ul{
+    display: flex;
+}
+body main span ul li{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

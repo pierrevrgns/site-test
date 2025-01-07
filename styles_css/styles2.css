@@ -1,0 +1,158 @@
+body {
+    background-color: #040517;
+    color: white;
+    font-size: 17pt;
+}
+/*header*/
+body header img {
+    border-color: #101523;
+    width: 100%;
+}
+
+body header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* mise en forme*/
+    margin: 1rem;
+    height: 8rem;
+    background-color: #263549;
+    border-radius: 1.5rem;
+    border-style: groove;
+    border-color: #e5b374;
+    box-shadow: 0.5rem 0.5rem 1rem #000000;
+    width: 100%;
+}
+
+body header ul li {
+    align-self: center;
+}
+
+/* lien */
+body header ul li a {
+    color: white;
+}
+
+body header ul li h1:hover {
+    text-decoration-line: underline;
+}
+
+body main article p a {
+    color: white;
+}
+
+body main article p a b:hover {
+    text-decoration-line: underline;
+}
+/* footer*/
+footpage {
+    margin-top: 30px;
+}
+
+footpage hr {
+    border-width: 2px;
+    border-color: #e5b374;
+    opacity: 100%;
+}
+
+footpage span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*media querie*/
+@media screen and (max-width: 1000px) {
+
+    /* header */
+    body header img {
+        width: 100%;
+
+    }
+
+    body header ul {
+        margin: 0px;
+        height: 275px;
+        display: flex;
+        flex-direction: column;
+        border-style: none;
+        border-radius: 0;
+        background-color: #040517;
+
+    }
+
+    body header ul li {
+        border-style: groove;
+        border-radius: 1.5rem;
+        padding: 10px;
+        border-color: #e5b374;
+        width: 300px;
+        text-align: center;
+        background-color: #263549;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    /*header*/
+    body header img {
+        width: 100%;
+    }
+
+    body header ul {
+        margin: 0;
+    }
+    body header ul li {
+        align-self: center;
+        justify-content: space-between;    
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 20px;
+        font-size: 10pt;
+    }
+
+    /*header*/
+    body header img {
+        width: 100%;
+    }
+
+    body header ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    body header ul li {
+        align-self: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    /*footpage*/
+    footpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footpage {
+        margin: 0;
+    }
+
+}
